@@ -1,0 +1,43 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:ital,wght@0,400;0,500;1,300&display=swap');
+
+/* //common font style// */
+body{
+    font-family: 'Playfair Display', serif;
+}
+
+/* header */
+header{
+    margin: 100px 0px 0px 100px;
+}
+/*--------------
+ main work 
+ -------------- */
+.main-work{
+    margin: 100px 100px 100px 100px;
+}
+
+/* first work start  */
+
+.first-work{
+    display: flex;
+}
+.h1-font{
+    font-size: 60px;
+}
+.button{
+    padding:10px 10px 10px 10px;
+    background-color: #E03B8B;
+    border-radius: 15px;
+    border:none;
+}
+.button > a{
+    color: white;
+    text-decoration: none;
+}
+/* first work end  */
+
+/* grid and layout  */
+.section-title{
+    text-align: center;
+}
