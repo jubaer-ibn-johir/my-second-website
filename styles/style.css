@@ -26,7 +26,7 @@ header{
     font-size: 60px;
 }
 .button{
-    padding:10px 10px 10px 10px;
+    padding:10px 20px 10px 20px;
     background-color: #E03B8B;
     border-radius: 15px;
     border:none;
@@ -62,7 +62,64 @@ header{
 .fa-star.filled{
     color: #FFC014;
 }
-.fa-star.empty{
-    color: lightcyan;
+.see-more{
+    text-decoration: none;
+    color:#E03B8B ;
+    margin: 0px 0px 0px 885px;
+}
+/* extra part  */
+
+.button-2{
+    margin: 0px 0px 10px 0px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    background-color:#E03B8B ;
+
+    
+}
+.button-2 a{
+    text-decoration: none;
+    color: white;
+}
+.bonus-part{
+    display: flex;
+    padding-bottom: 70px;
+}
+.h2-font{
+    font-size: 30px;
+}
+.bonus-image{
+    border-radius: 5px;
 }
 
+.extra-1{
+    display: flex;
+    width: 300px;
+    height: 250px;
+    margin-left: 10px;
+}
+.extra-2{
+    margin: 0px 10px 20px 110px;
+}
+/* footer  */
+.influencer{
+    text-align: center;
+    background-color:black ;
+    margin: -5%;
+    padding: 20px 10px 20px 10px;
+}
+
+.social{
+    
+    text-decoration: none;
+    
+}
+.white-color{
+    color: white;
+    padding:0px 10px 0px 10px;
+    
+
+}
+.copy{
+    color: lightblue;
+}
