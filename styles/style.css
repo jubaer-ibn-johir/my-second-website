@@ -130,7 +130,6 @@ media Queries
 /* Mobile device */
 @media only screen and (max-width: 688px) {
     .main-work{
-        
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
         margin: 0%;
@@ -160,5 +159,22 @@ media Queries
         padding:0%;
         margin: 0%;
     }
+    
+}
+/* tablet devices  */
+@media only screen and (min-width: 688px) and 
+(max-width:992px) {
+    .main-work{
+        width: 100%;
+        margin: 0%;
+    }
+    .products{
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .see-more{
+        margin: 0%;
+    }
+    
     
 }
